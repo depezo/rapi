@@ -1,4 +1,4 @@
-import * as express from 'express';
+import express from 'express';
 import { main } from './rabbit.ts';
 
 const app = express();
