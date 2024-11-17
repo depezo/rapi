@@ -57,10 +57,10 @@ const main = async (xrax: string) => {
     document: {
       cookie: "",
     },
-    origin: "https://rabbitstream.net",
+    origin: "https://zizicoi.online",
     location: {
-      href: "https://rabbitstream.net/v2/embed-4/mcAWNPptFcOb?z=",
-      origin: "https://rabbitstream.net",
+      href: "https://zizicoi.online/v2/embed-4/BsVLJ8Huoe4W?z=",
+      origin: "https://zizicoi.online",
     },
     performance: {
       timeOrigin: dateNow,
@@ -80,7 +80,7 @@ const main = async (xrax: string) => {
   }
 
 
-  let script_url = "https://rabbitstream.net/v2/embed-4/z1AOmWCJVgcy?z=";
+  let script_url = "https://zizicoi.online/v2/embed-4/BsVLJ8Huoe4W?z=";
 
   function get(index: number) {
     return arr[index];
@@ -569,7 +569,7 @@ const main = async (xrax: string) => {
     }
     fake_window.xrax = xrax;
     let keys = await V();
-    let getSourcesUrl = "https://rabbitstream.net/ajax/v2/embed-4/getSources?id=" + xrax + "&v=" + fake_window.localStorage.kversion + "&h=" + fake_window.localStorage.kid + "&b=1676800512"
+    let getSourcesUrl = "https://zizicoi.online/v2/embed-4/BsVLJ8Huoe4W?z=" + xrax + "&v=" + fake_window.localStorage.kversion + "&h=" + fake_window.localStorage.kid + "&b=1676800512"
     let resp_json = await (await fetch(getSourcesUrl, {
       "headers": {
         "User-Agent": user_agent,
