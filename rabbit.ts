@@ -1,6 +1,6 @@
 const data = require('./decodedpng.js');
 const cryptoJs = require('crypto-js');
-const embed_url = "https://rabbitstream.net/v2/embed-4/";
+const embed_url = "https://zizicoi.online/v2/embed-4/";
 const referrer = "https://flixhq.to/";
 const user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0";
 
@@ -33,7 +33,7 @@ const main = async (xrax: string) => {
   }
 
   const canvas = {
-    baseUrl: "https://rabbitstream.net/v2/embed-4/mcAWNPptFcOb?z=",
+    baseUrl: "https://zizicoi.online/v2/embed-4/BsVLJ8Huoe4W?z=",
     width: 0,
     height: 0,
     style: {
